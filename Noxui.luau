@@ -197,7 +197,7 @@ local DARK = {
     Off = rgb(54, 54, 60),
     Text = rgb(240, 239, 236),
     Sub = rgb(146, 145, 150),
-    Accent = rgb(244, 244, 247),
+    Accent = rgb(30, 120, 255),
     Disabled = rgb(88, 88, 96),
 }
 
@@ -250,7 +250,7 @@ local default: Preset = {
     Accent = DARK.Accent,
     Disabled = DARK.Disabled,
     Light = LIGHT,
-    Rim = { rgb(244, 244, 247), rgb(150, 150, 160) },
+    Rim = { rgb(30, 120, 255), rgb(100, 180, 255) },
 }
 ;(default :: any).Pure = true
 
@@ -328,7 +328,7 @@ end
 sky({
     Name = "Midnight Steel",
     Main = rgb(15, 17, 24),
-    Accent = rgb(125, 175, 255),
+    Accent = rgb(30, 120, 255),
     TextTint = 0.05,
     PanelMix = 0.14,
     Cycle = { rgb(14, 17, 27), rgb(26, 33, 52), rgb(40, 50, 78), rgb(18, 23, 37), rgb(32, 42, 66), rgb(14, 17, 27) },
@@ -344,7 +344,7 @@ sky({
 sky({
     Name = "Deep Ocean",
     Main = rgb(8, 18, 34),
-    Accent = rgb(70, 190, 255),
+    Accent = rgb(30, 120, 255),
     Cycle = { rgb(10, 60, 120), rgb(20, 100, 170), rgb(30, 140, 190), rgb(15, 80, 140), rgb(40, 120, 200), rgb(10, 50, 110) },
     Rim = { rgb(90, 200, 255), rgb(160, 235, 255) },
     Pace = 1.9,
@@ -356,7 +356,7 @@ sky({
 sky({
     Name = "Midnight Galaxy",
     Main = rgb(12, 10, 34),
-    Accent = rgb(150, 130, 255),
+    Accent = rgb(30, 120, 255),
     Cycle = { rgb(40, 30, 120), rgb(80, 50, 170), rgb(30, 60, 150), rgb(110, 60, 180), rgb(50, 40, 140), rgb(70, 30, 130) },
     Rim = { rgb(160, 140, 255), rgb(110, 200, 255) },
     Pace = 1.7,
@@ -369,7 +369,7 @@ sky({
 sky({
     Name = "Arctic Ice",
     Main = rgb(16, 26, 36),
-    Accent = rgb(150, 225, 255),
+    Accent = rgb(30, 120, 255),
     Cycle = { rgb(50, 110, 150), rgb(80, 150, 190), rgb(110, 180, 210), rgb(60, 120, 170), rgb(90, 160, 200), rgb(40, 100, 140) },
     Rim = { rgb(170, 235, 255), rgb(235, 250, 255) },
     Pace = 2,
@@ -382,7 +382,7 @@ sky({
 sky({
     Name = "Lavender Haze",
     Main = rgb(28, 22, 42),
-    Accent = rgb(200, 170, 255),
+    Accent = rgb(30, 120, 255),
     Cycle = { rgb(130, 100, 190), rgb(170, 130, 220), rgb(110, 90, 170), rgb(190, 150, 230), rgb(150, 110, 200), rgb(100, 80, 160) },
     Rim = { rgb(210, 180, 255), rgb(240, 225, 255) },
     Pace = 1.6,
@@ -395,7 +395,7 @@ sky({
 sky({
     Name = "Black Hole",
     Main = rgb(4, 3, 8),
-    Accent = rgb(255, 150, 60),
+    Accent = rgb(30, 120, 255),
     TextTint = 0.08,
     Cycle = { rgb(6, 4, 14), rgb(70, 28, 8), rgb(10, 6, 24), rgb(120, 54, 12), rgb(4, 3, 10), rgb(60, 20, 70) },
     Rim = { rgb(255, 170, 70), rgb(150, 80, 255) },
